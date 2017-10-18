@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>xxxx1</key>
+	<string>針對不同的解析度設計不同的介面圖示</string>
+  <key>xxxx2</key>
+  <string>在開啟圖檔時，程式控制讀取不同的圖檔</string>
+</dict>
+</plist>
