@@ -1,5 +1,5 @@
-﻿#define SceneTransition 1
-
+﻿#define SceneTransition 3
+//hi
 #include "AppDelegate.h"
 #if SceneTransition == 1 || SceneTransition == 2
 #include "./Scene101/Scene101.h"
@@ -83,6 +83,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
 #elif SceneTransition == 2
 	auto scene = TransitionMoveInL::create(0.6f, Scene101::createScene());
 	director->runWithScene(scene);
+
+#elif SceneTransition == 3
+auto scene = TransitionZoomFlipX::create(0.6f, Scene102::createScene());
+director->runWithScene(scene);
 #endif
 
 //	Director::getInstance()->replaceScene(scene);

@@ -24,6 +24,9 @@
     <ClCompile Include="..\Classes\Scene101\Scene101.cpp">
       <Filter>src\scene101</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Scene101\Scene102.cpp">
+      <Filter>src\scene101</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -33,6 +36,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Scene101\Scene101.h">
+      <Filter>src\scene101</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene101\Scene102.h">
       <Filter>src\scene101</Filter>
     </ClInclude>
   </ItemGroup>

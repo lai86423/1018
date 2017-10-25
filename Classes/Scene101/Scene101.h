@@ -2,7 +2,7 @@
 #define __SCENE_101_H__
 
 #include "cocos2d.h"
-
+//hi
 USING_NS_CC;
 
 class Scene101 : public cocos2d::Layer
